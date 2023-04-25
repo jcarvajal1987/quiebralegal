@@ -1,0 +1,596 @@
+/*reset css end*/
+@media (max-width: 758px) and (orientation: portrait) {
+    html {
+        font-size: 130%;
+    }
+}
+@media (max-width: 449px) and (orientation: portrait) {
+    html {
+        font-size: 100%;
+    }
+}
+@media (max-width: 340px) and (orientation: portrait) {
+    html {
+        font-size: 80%;
+    }
+}
+@media (min-width: 701px) and (orientation: portrait) {
+    html {
+        font-size: 178%;
+    }
+}
+.primary {
+    background-color: #d90000;
+}
+.primary2 {
+    background-color:#e74317;
+}
+.primary3 {
+    background-color:#D82E00;
+}
+
+
+.header-home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.bg-container {
+    width: 100%;
+    background-position:50% 50%;
+    background-size: cover;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+.bg-container-2 {
+    width: 100%;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    padding: 50px 0;
+}
+.title-container {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+}
+.title-content {
+    padding: 0 20px 0 20px;
+    color: #010101;
+    width: 50%;
+}
+.btn{
+	color:#fff;
+	background-color:#D82E00;
+	outline: none;
+    text-align: center;
+    border: 0;
+    color: #fff;
+	padding:17px 20px;
+	border-radius:30px;
+    margin-top: 18px;
+	cursor:pointer;
+	position:relative;
+    max-width: 200px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.logo-white {
+    width: 80%;
+    margin-bottom: 10px;
+}
+.title {
+    font-size: 3.1rem;
+    line-height: 1.1em;
+    font-weight: 600;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.description {
+    padding-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.2em;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+.separator {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+.services {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 70px 20px 128px 20px;
+    flex: 1 1 auto;
+    align-items: center;
+}
+.services h2 {
+    font-size: 2.4rem;
+    font-family: 'Red Hat Display', sans-serif;
+    letter-spacing: -0.5px;
+}
+.services nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4%;
+}
+.services nav a {
+    border: 1px solid #000000;
+    outline: 1px solid #fff;
+    height: 235px;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+}
+.services nav a:hover {
+    border: 1px solid #d90000;
+    outline: 1px solid #d90000;
+}
+.services-item {
+    padding: 15px;
+    flex: 1 1 auto;
+    align-self: center;
+    font-size: 1.4rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.insolvencia{
+    display: flex;
+    flex-direction: row;
+    padding: 65px 30px;
+    color: #fff;
+   
+}
+.container-insolvencia{
+    display: flex;
+margin: auto;
+max-width: 95%;
+text-align: left;
+gap: 25px;
+}
+.insolvencia div p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.02rem;
+    line-height: 1.4rem;
+
+    
+}
+.insolvencia-title{
+    gap: 13px;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+
+    
+    font-family: 'Red Hat Display';
+    font-weight:600;
+    letter-spacing: 0.05rem;
+
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.img-contable {
+    width: 43px;
+    margin-bottom: 15px;
+}
+.img-transferencia {
+    width: 56px;
+    margin-bottom: 13px;
+}
+.img-gestion {
+    width: 49px;
+    margin-bottom: 15px;
+}
+.line-title {
+    width: 100%;
+    height: 2px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: center;
+}
+.line-color {
+    width: 50px;
+    height: 3px;
+    background-color: #d90000;
+}
+.logo-whatsapp{
+    width: 30px;
+    margin-right: 10px;
+    
+}
+.abrir-whatsapp{
+    background-color: #25D366;
+    padding: 7px 10px;
+    color: #fff;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    
+    text-shadow: 1px 1px 9px #00000063;
+}
+.consulta{
+    background-color: #fff;
+    padding: 32px 33px 45px 33px;
+    text-align: center;
+    
+}
+
+.numero{
+    line-height: 1.5rem;
+}
+.whatsapp-container{
+ font-family: 'open sans';      
+}
+.whatsapp {
+    max-width: 90%;
+    min-width: 280px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.38) 0px 0px 5px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+.atencion {
+    color: #777777;
+    font-size: 0.9rem;
+    padding: 12px 0 18px 0;
+    display: block;
+}
+.chat{
+    color: #fff;
+    margin: auto;
+    width: 139px;
+    background-color: #25D366;
+    padding: 13px 19px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-shadow: 1px 1px 9px #00000063;
+}
+.services-container{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.services-item{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    font-family: 'open sans';   
+    width: 100%;
+}
+.services-picture{
+    display: flex;
+}
+.picture-size{
+    width: 220px;
+    margin: auto;
+    border-radius: 230px;
+    /* border: 3px solid #cecece */
+}
+.services-title {
+    color: #D90000;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+.services-description{
+    color: #2A3347;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    flex-direction: row;
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+}
+.services-consultar{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.services-content{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: left;
+    gap: 20px;  
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    text-align: left;
+}
+.detail-in{
+    white-space: nowrap;
+
+}
+.check2{
+    width: 15px;
+    margin-right: 8px;
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+    color: #fff;
+   
+}
+.contacto1{
+    gap: 21px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container-contacto{
+    display: flex;
+margin: auto;
+width: 100%;
+max-width: 95%;
+text-align: left;
+gap: 25px;
+}
+.contact-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'open sans'; 
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    width: 100%;
+}
+.contact-item-title{
+    font-size: 2.5rem;
+    font-family: 'Red Hat Display';
+    padding-bottom: 8px;
+}
+.consulta2{
+    color: #000;
+    text-align: left;
+    font-family: 'open sans';   
+    background-color: #fff;
+    padding: 32px 45px 45px 45px;
+    box-shadow: rgba(0, 0, 0, 0.38) 0px 0px 5px;
+}
+.contact-title{
+    font-size: 2.5rem;
+    font-family: 'Red Hat Display';
+}
+.gusto {
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 7px 0 11px 5px;
+}
+.contact-group{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 35px;   
+}
+.contact-group-2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;   
+}
+.contact-group a{
+    text-decoration: none;
+    color: #000;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 25px;
+    display: flex;
+}
+.input-container{
+	position:relative;
+	margin-bottom:25px;
+    display: flex;
+}
+.input-container label{
+	position:absolute;
+    padding: 0 10px;
+    background: #fff;
+	left: 14px;
+    top: 18px;
+	color:#4b4b4b;	
+    pointer-events:none;
+	transition: all 0.2s ease-in-out;
+    line-height: 13px;
+}
+.input-container input{ 
+    border: 1px solid #BFBFBF;
+    padding: 12px;
+    font-size: 1.2rem;
+    border-radius: 11px;
+  background:transparent;
+  width:100%;
+
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border:1px solid #d90000;
+}
+.input-container textarea{ 
+    border: 1px solid #BFBFBF;
+    padding: 12px;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 11px;
+  background:transparent;
+  width:100%;
+
+}
+.input-container textarea:focus{ 
+ border:none;	
+ outline:none;
+ border:1px solid #d90000;
+}
+
+/*.btn:after{
+	content:"";
+	position:absolute;
+	background:rgba(0,0,0,0.50);
+	top:0;
+	right:0;
+	width:100%;
+	height:100%;
+}*/
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-7px;
+	color: #d90000;
+}
+input:-internal-autofill-selected{
+    background: transparent;
+}
+.input-container textarea:focus ~ label,
+.input-container textarea:valid ~ label{
+	top:-7px;
+	color: #d90000;
+}
+
+.chatear{
+    display: flex;
+    background-color: #1EB29C;
+    align-items: center;
+    padding: 6px 20px;
+    border-radius: 37px;
+}
+.chatear2{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+}
+@media (min-width: 768px){
+    .contacto1{
+        width: 45%;
+        padding: 60px 30px 55px 65px;
+    }   
+    .contacto2{
+        width: 55%;
+    }   
+    
+    .whatsapp-container{
+        position: absolute;bottom: 0;right: 3%;
+    }
+    .consulta2{
+        margin-top: -30px;
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 768px),
+(orientation: portrait) {
+    .menu-item2{
+        border: none!important;
+    }
+    .buttons{
+    align-items: initial;
+    flex-direction: column;
+    }
+    .contacto{
+        padding: 0;
+    }
+    .container-contacto{
+    flex-direction: column;
+    max-width: 100%;
+    }
+    .contacto1{
+        width: auto;
+    padding: 50px 20px 50px 20px;   
+    }  
+    .contacto2{
+        width: 100%;
+    }  
+    .consulta2{
+        padding: 30px;
+    }
+    .services-item{
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+    }
+    .services-content{
+        text-align: center;
+    }
+    .bg-container{
+        background-position: 10% 50%;
+        background-image: none!important;
+        background-color: #242424;
+
+    }
+    .title{
+        font-size: 2.5rem;
+        color: #fff;
+    }
+    .description{
+        color: #fff;
+    }
+    .btn{
+        margin: auto;
+    }
+    .whatsapp-container{
+       
+    }
+    .title-container{
+        flex-direction: column;
+    }
+    .container-insolvencia{
+        flex-direction: column;
+    }
+    .insolvencia-title{
+        width: 100%;
+    }
+    .header-home {
+        /* max-height: 744px; */
+    }
+    .bg-container-2 {
+        /* background-color: rgb(0 0 0 / 54%); */
+    }
+    .title-content {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .logo-white {
+        width: 83%;
+    }
+    .services nav {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, auto);
+        grid-gap: 20px;
+    }
+    .services h2 {
+        font-size: 1.5rem;
+    }
+}
+@media (orientation: landscape) {
+    .header-home {
+        min-height: 100vh;
+    }
+}
+@media (min-width: 1100px) and (orientation: landscape) {
+    .bg-container{
+        background-position:10% 50%;
+    }
+    .title-container {
+        max-width: 85%;
+    }
+    .services {
+        max-width: 85%;
+    }
+}
