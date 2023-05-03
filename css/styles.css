@@ -331,6 +331,10 @@ gap: 25px;
     flex-direction: column;
     
 }
+.social-link{
+    text-decoration: none;
+    color: white;
+}
 .container-contacto{
     display: flex;
 margin: auto;
